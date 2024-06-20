@@ -1,0 +1,59 @@
+.h-100v{
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* background-color: #01c380; */
+    /* background: linear-gradient(to right, #01c380, #27c4cf); */
+    border: 3px solid white;
+}
+
+.text-white {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.mt-6 {
+    margin-top: 10%;
+}
+
+.container {
+    max-width: 50%;
+    position: relative;
+    top: 20%;
+}
+
+.background {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.527);
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        left: 38%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        left: 30%;
+    }
+}
